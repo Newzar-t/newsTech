@@ -1,5 +1,5 @@
 .mainPage{
-    margin-top:8rem;
+    margin-top:4rem;
     width:60%;
     height:100%;
     overflow: scroll;
@@ -9,11 +9,44 @@
     gap:2rem;
 }
 
+.searchBar{
+    width:50%;
+    height:3rem;
+    margin-top:3rem;
+}
+
 .article{
     padding:0 0 1rem 0;
-    width:100%;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(44, 44, 44);
+    border-radius: 1rem;
+    padding:2rem;
+    color:white;
+
+}
+
+.article img{
+    width:30%;
+    height:90%;
+    object-fit:cover;
+    border-radius:2rem;
+}
+
+.article span{
+    width:65%;
     display:flex;
     flex-direction:column;
-    gap:15px;
-    border-bottom: 2px solid grey;
+    align-content: center;
+    justify-content: center;
+    gap:1rem;
+
+}
+
+.article a{
+  margin-top:0.7rem;
 }

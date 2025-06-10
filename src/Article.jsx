@@ -1,8 +1,9 @@
-function Article({title, author, link, description}){
+function Article({title, author, link, description,image}){
     return(
         <div className="article">
-            <h2>{title}</h2>
-            <p>{description}</p>
+            <img src={image}></img>
+            <span><h2>{title}</h2>
+            <p>{description}</p></span>
             <a href={link}><p>Source : {author}</p></a>
         </div>
     )
