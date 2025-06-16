@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Newzar-t.github.io/newsTech",
+  "homepage": "https://newzar-t.github.io/newsTech",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
